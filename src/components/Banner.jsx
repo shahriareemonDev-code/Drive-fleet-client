@@ -11,7 +11,7 @@ const Banner = () => {
       
       {/* Background Car Image */}
       <Image
-        src="/car.png"
+        src="/car.jpg"
         alt="Premium car rental"
         fill
         priority
@@ -90,13 +90,6 @@ const Banner = () => {
               Explore Cars
 
               <ArrowRightIcon className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
-            </Link>
-
-            <Link
-              href="/about"
-              className="rounded-xl border border-white/20 bg-white/5 px-7 py-4 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-white/40 hover:bg-white/10"
-            >
-              Learn More
             </Link>
           </div>
         </div>
